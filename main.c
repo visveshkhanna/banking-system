@@ -1,8 +1,12 @@
 #include <stdio.h>
+#include "constants.h"
+
+const char name[10] = "Visvesh";
 
 int main() {
-
-	printf("Banking System ~ Vishu");
+	
+	Title(name);
+	//printf("Banking System ~ Vishu");
 	return 0;
 
 }
