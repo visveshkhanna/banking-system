@@ -1,4 +1,7 @@
+#define _GNU_SOURCE
 #include <stdio.h>
+#include <time.h>
+#include <string.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include "const.h"
