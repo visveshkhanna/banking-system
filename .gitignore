@@ -48,6 +48,9 @@ main
 # Text files
 *.txt
 
+# VS COde
+.vscode/
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd

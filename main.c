@@ -1,10 +1,12 @@
 #define _GNU_SOURCE
 #include <stdio.h>
+#include <unistd.h>
 #include <time.h>
 #include <string.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include "const.h"
+#include "views.h"
 #include "filehandle.h"
 #include "login.h"
 #include "register.h"

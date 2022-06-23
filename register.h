@@ -11,8 +11,8 @@ void Register() {
 	{
 		str[len+i] = num[i];
 	}
-	printf("Enter your name: ");
-	scanf(" %[^\n]s", name);
+	printf("Enter your name\nExample: John\n\n=> ");
+	scanf("%s", name);
 	struct User user = {str, name, 0, 0};
 	struct UserAccess useraccess = {str, generate_pin()};
 
@@ -24,14 +24,14 @@ void Register() {
 	}
 
 	printf("\n****** > User Data < ******\n\n");
-	printf("User's Name: %s\n", user.name);
+	printf("User's Name => %s\n", user.name);
 	print_time();
 	printf("Balance: %d\n", 0);
 	
 	printf("\n****** > Personal Data < ******\n\n");
 	printf("*** Note this data for future use! ***\n\n");
-	printf("Account id: %s\n", user.account_id);
-	printf("Pin: %d\n", useraccess.pin);
+	printf("Account id => %s\n", user.account_id);
+	printf("Pin => %d\n", useraccess.pin);
 
 	printf("\n**** %s BANKING ****\n", BANK_NAME);
 

@@ -1,0 +1,165 @@
+REGISTER
+
+a) NEW [NO DUPLICATE]
+ 
+Welcome to Syndrome Banking Utility!
+
+1) Login
+2) Register
+3) Exit
+
+Select an option: 2
+
+Thanks for your interest in Syndrome Banking!
+
+Enter your name
+Example: John
+
+=> Visvesh
+
+
+Kindly save the below data for futher records, you can change the data anytime, in the login section!
+
+
+****** > User Data < ******
+
+User's Name => Visvesh
+Time: Thu Jun 23 21:06:02 2022
+Balance: 0
+
+****** > Personal Data < ******
+
+*** Note this data for future use! ***
+
+Account id => SYN_1
+Pin => 9440
+
+**** Syndrome BankING ****
+
+b) OLD [DUPLICATE]
+
+Welcome to Syndrome Banking Utility!
+
+1) Login
+2) Register
+3) Exit
+
+Select an option: 2
+
+Thanks for your interest in Syndrome Banking!
+
+Enter your name
+Example: John
+
+=> Visvesh
+
+
+Kindly save the below data for futher records, you can change the data anytime, in the login section!
+
+
+**** Alert ****
+[  Duplicate Account Warning: User Name already exists!  ]
+
+****** > User Data < ******
+
+User's Name => Visvesh
+Time: Thu Jun 23 21:07:17 2022
+Balance: 0
+
+****** > Personal Data < ******
+
+*** Note this data for future use! ***
+
+Account id => SYN_3
+Pin => 2389
+
+**** Syndrome BankING ****
+
+LOGIN
+
+a) InvalidAccount
+
+Welcome to Syndrome Banking Utility!
+
+1) Login
+2) Register
+3) Exit
+
+Select an option: 1
+
+Obtaining Resources for Logging in!
+Please wait...
+
+Enter the account id associated with your bank account
+Example: SYN_1
+
+=> NIL
+
+The given id 'NIL' does not exists!
+
+Make sure of your account id and also make sure you have registered!
+Error: InvalidAccount
+
+b) InvalidPassword
+
+Welcome to Syndrome Banking Utility!
+
+1) Login
+2) Register
+3) Exit
+
+Select an option: 1
+
+Obtaining Resources for Logging in!
+Please wait...
+
+Enter the account id associated with your bank account
+Example: SYN_1
+
+=> SYN_1
+
+Enter the 4 digit pin
+Example: 0000
+
+=> 1
+
+
+The pin is incorrect!
+
+Make sure you have entered the correct pin!
+Error: InvalidPassword
+ACC: SYN_1
+
+C) NO ERROR
+Welcome to Syndrome Banking Utility!
+
+1) Login
+2) Register
+3) Exit
+
+Select an option: 1
+
+Obtaining Resources for Logging in!
+Please wait...
+
+Enter the account id associated with your bank account
+Example: SYN_1
+
+=> SYN_1
+
+Enter the 4 digit pin
+Example: 0000
+
+=> 9440
+
+>>> Syndrome Bank <<<
+
+>>>>>> ACCOUNT <<<<<<
+
+Name => Visvesh
+Account => SYN_1
+Balance => Rs. 0.00
+Transactions => 0
+
+Thanks for using Syndrome Banking Utility!
+Bye :)
